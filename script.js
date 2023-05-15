@@ -6,10 +6,11 @@ function palindrome(str){
 		str1.concate(charAt(index));
 	}
 	if(str==str1){
-		console.log(str,'is a palindrome');
+		return true;
 	}
 	else{
-		console.log(str,'is not a palindrome');
+		return false;
 	}
 }
+
 module.exports = palindrome
