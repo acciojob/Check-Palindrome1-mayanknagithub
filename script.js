@@ -12,7 +12,7 @@ function palindrome(str){
 		i++;
 		j--;
 	}
-	console.log(isPalindrome ? "true" : "false");
+	return isPalindrome;
 }
 
 module.exports = palindrome
