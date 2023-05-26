@@ -1,12 +1,13 @@
 // complete the given function
 
 function palindrome(str){
+	let newStr = str.lowercase();
 	let isPalindrome = true;
 	let i = 0;
 	let j = str.length-1;
 
 	while(i<=j){
-		if(str[i]!=str[j]) {
+		if(newStr[i]!=newStrstr[j]) {
 			isPalindrome = false;
 			break;
 		}
