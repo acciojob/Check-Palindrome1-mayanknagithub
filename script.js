@@ -8,6 +8,7 @@ function palindrome(str){
 	while(i<=j){
 		if(str[i]!=str[j]) {
 			isPalindrome = false;
+			break;
 		}
 		i++;
 		j--;
