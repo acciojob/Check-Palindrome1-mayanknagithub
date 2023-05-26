@@ -2,6 +2,7 @@
 
 function palindrome(str){
 	let newStr = str.lowercase();
+	let newStr = str.trim();
 	let isPalindrome = true;
 	let i = 0;
 	let j = str.length-1;
