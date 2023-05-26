@@ -12,7 +12,7 @@ function palindrome(str){
 		i++;
 		j--;
 	}
-	if(isPalindrome == true){
+	if(isPalindrome === true){
 		console.log("true");
 	}
 	else{
